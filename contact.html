@@ -1,0 +1,163 @@
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Portfolio/Sunsets</title>
+<link rel="shortcut icon" href="Images/logo.png">
+<link rel="stylesheet" type="text/css" href="CSS/design.css"/>
+<link href='http://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet' type='text/css'>
+
+
+	<style>
+	
+	#wrapper				{height:570px;}
+	
+	#map				{ margin:-260px 0 0 20px }
+
+	form					{color:white; width:495px;  
+						
+							border-top: 2px solid  white;
+							padding-top:30px;
+							height:200px; margin-top:67px;
+							font-size:15pt; float:left; }
+	
+							
+	#nameemail				{width:383px; height:30px; font-size:12pt; 
+							margin-left:12px;
+							background-color:#D9D9D9;}
+	
+	
+	#message				{vertical-align:-60px;
+							background-color:#D9D9D9;
+							font-size:12pt;}
+							
+	#button					{margin:10px 0 0 80px ; width:60px; height:30px;
+							border-radius:1px 1px 1px 1px;}
+	
+	#button:hover			{background-color:#E0E5CD}
+	#button2:hover			{background-color:#FF6567}
+	
+	#button2				{margin:10px 0 0 -2px; width:30px; height:30px;
+							border-radius:1px 1px 1px 1px;}
+
+	#inquire				{color:white; font-size:15pt; padding:30px 0 0 0;}
+	
+	#inquire span		{font-style:italic;}
+	#inquire a			{text-decoration:none; color:#E0E5CD; font-size:13pt;}
+	
+	</style>
+</head>
+
+<body>
+	
+<a id = "top"><a>		
+<header>
+	<div id="logo"><a href="index.html"><img src="Images/logo.png" width="150px" height="150px" alt="logo" ></a></div>
+	<div><h1>Dmitriy <br/>Onishchenko</h1></div>
+	
+	<hr/>
+	<nav >
+		<ul id ="nav">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="favorites.html">FAVORITES</a></li>
+			<li><a href="portfolio.html">PORTFOLIO</a>
+				<ul class="hidden">
+					<li><a href="portraits.html">Portraits</a><li>
+					<li><a href="beach.html">Beach</a><li>
+					<li><a href="mtRainier.html">Mt Rainier</a><li>
+					<li><a href="sunsets.html">Sunsets</a><li>
+				</ul>
+			</li>
+			<li><a style="color:#E3980E" href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+<div id ="wrapper">
+
+	<div id ="follow">		
+		<a href="https://twitter.com/twitter" class="twitter-follow-button" 
+		data-show-count="false" data-show-screen-name="false">Follow @twitter</a>
+		
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.
+		facebook.com&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;
+		colorscheme=light&amp" style="overflow:hidden;width:48px;height:20px;" scrolling="no" 
+		frameborder="0" allowTransparency="true">
+		<a href="http://www.addlikebutton.net" class="fbook">www.addlikebutton.net</a></iframe>
+		
+		<a href="https://www.instagram.com" target="_blank"><img src="Images/instagram.png" width="21" height="21"a>
+	</div>	
+
+	<div style="width:500px;">
+		<section id="inquire">
+			<p>For <span>Photography</span> Inquires:<br/>
+			   please contact Dmitriy Onishchenko<br/>
+			<a href = "mailto:D.onish2010@gmail.com">d.onish2010@gmail.com</a></p>
+		</section>
+		
+		<section id="inquire">
+			<p>For <span>Web Design</span> Inquires:<br/>
+			   please email <br/>
+			<a href = "mailto:D.onish2010@gmail.com">d.onish2010@gmail.com</a></p>
+		</section>
+	</div>
+	
+	
+	
+	<form method="post" action ="PHP/contact.php">		
+			
+			Name:&nbsp;&nbsp; <input id ="nameemail" name="name" style="text" size="40"> <br/>			 
+			Email:&nbsp;&nbsp; <input id ="nameemail" name="email" style="text" size="40"> <br/>
+			<div style="text-align:top">
+			Message: 
+			<textarea id="message" name="message" rows="4" cols="40"> </textarea> <br/></div>
+			
+			<input id="button" type="submit" value="send" name="sendContactEmail"/>
+			<input id="button2" type="reset" value="X"/>
+
+	
+	</form>
+	
+
+	<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d5406.
+	801521770579!2d-122.30261654232788!3d47.34557317720515!2m3!1f0!2f0!3f0!3m2
+	!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d47.3434141!2d-122.30740159999999
+	!5e0!3m2!1sen!2sus!4v1426036240863" 
+	width="480" height="515" frameborder="0" style="border:0"></iframe>
+	
+	
+	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],
+	p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id))
+	{js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+	fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+<footer>
+	<div id="copyright" style="clear:left">&copy 2016 Dmitriy Onishchenko<br/>
+		<div id="toTop">
+			<a href ="#top">Back to top</a>
+		</div>
+	</div>
+	
+	<div style = "float:right;">
+		<span style ="vertical-align:15px;">Website Developed by</span>
+		<img src = "Images/logo.png" height = "40px" width = "40px" alt = "logo" />
+	</div>
+</footer>
+
+
+
+
+</body>
+
+</html>
